@@ -1,0 +1,33 @@
+div{
+    border: 1px solid black;
+    margin: 10px 0;
+    height: 10px;
+    background-color: cyan;
+}
+
+.div_1{
+    width: 700px;
+}
+.div_2{
+    width: 50%;
+}
+.div_3{
+    width: 50vw;
+}
+
+html {
+  font-size: 50px;
+}
+
+/*
+rgb = red green blue
+rgba = red green blue alpha
+*/
+
+body {
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: #ff0000;
+  /* ff ff ff */
+  /* ff 00 00 */
+}

@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+.main {
+	margin: 10% auto;
+	width: 420px;
+	padding: 16px;
+	border-radius: 20px;
+	box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24),
+		0px 2px 8px 0px rgba(40, 41, 61, 0.08);
+}
+
+form {
+	padding: 0px 16px 16px 16px;
+}
+
+h1 {
+font-weight: 800;
+	font-size: 28px;
+}
+
+.svgImg {
+	text-align: end;
+}
+
+.inputPlace,
+.buttonPlace {
+	display: flex;
+	flex-direction: column;
+}
+
+.inputPlace input {
+	font-size: 16px;
+	margin-top: 24px;
+	padding: 14px 16px;
+	border-radius: 12px;
+	border: 1px solid #cfd8dc;
+}
+
+.inputPlace input:focus {
+	outline: none;
+	border: 1px solid #ffe44d;
+}
+
+.buttonPlace input {
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 24px;
+	padding: 14px 24px;
+	border-radius: 55px;
+}
+
+input:nth-child(2) {
+	margin-top: 8px;
+}
+
+p {
+	color: #7b8e98;
+	font-size: 12px;
+	margin-top: 24px;
+}
+
+input[id='reg'] {
+	background: #ffe44d;
+	border: none;
+}
+
+input[id='signIn'] {
+	border: 1px solid #cfd8dc;
+	background-color: white;
+}

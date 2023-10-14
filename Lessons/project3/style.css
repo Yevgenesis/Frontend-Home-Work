@@ -1,27 +1,122 @@
-* {
-	padding: 0;
-	margin: 0;
-    box-sizing: border-box;
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* пэддинги и бордеры не добавляют доп. пространство, а забирают у блока */
 }
-img{
-	width: 300px;
+header{
+    height: 70px;
+    background-color: cyan;
+    margin: 30px 0;
 }
-main{
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+h1:hover{
+    color: red;
+    
+}
+main {
+    width: 90%;
+    margin: auto;
+    background-color: cyan;
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: end; */
+    /* align-items:center ; */
+    
+    
 }
-div {
-	width: 200px;
-	height: 200px;
-	background-color: green;
-	padding: 70px;
+div{
+    box-shadow: 13px 12px 24px 10px rgba(34, 60, 80, 0.2);
+    transition: 1s;
+}
+
+div:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+.item {
+    width: calc(25% - 20px);
+    height: 400px;
+    background-color: seagreen;
+    padding: 20px; /* внутренний отступ со всех сторон */
     margin: 10px;
 }
 
-
-/* div:nth-child(2) {
-	margin-left: 200px;
-	background-color: rgb(228, 211, 102);
+.item-1{
+    background-image: url(./images/Metallica.jpeg);
+    background-size: cover;
 }
-div:nth-child(3) {
-	margin-left: 400px;
-} */
+.item-2{
+    background-image: url(./images/ac_dc.webp);
+    background-size: cover;
+}
+.item-3{
+    background-image: url(./images/aerosmith.jpeg);
+    background-size: cover;
+}
+.item-4{
+    background-image: url(./images/Beatles.jpg);
+    background-size: cover;
+}
+.item-5{
+    background-image: url(./images/nirvana.webp);
+    background-size: cover;
+}
+.item-6{
+    background-image: url(./images/Bob-Marley_3.jpg);
+    background-size: cover;
+}
+.item-7{
+    background-image: url(./images/queen.jpeg);
+    background-size: cover;
+}
+.item-8{
+    background-image: url(./images/Zepplin.jpg);
+    background-size: cover;
+}
+.item-9{
+    background-image: url(./images/presley.jpeg);
+    background-size: cover;
+}
+.item-10{
+    background-image: url(./images/black_sabbath.jpeg);
+    background-size: cover;
+}
+.item-11{
+    background-image: url(./images/sex_pistols.jpeg);
+    background-size: cover;
+}
+.item-12{
+    background-image: url(./images/RolingStones.jpg);
+    background-size: cover;
+}
+
+
+
+/*
+    flex - по умолчанию позволяет разместить элементы в строку.
+        flex задаем в родительский элемент блоков, которые мы хотим разместить в строку
+
+    ДЗ. 
+        1. Создать папку images в project3 и поместить туда картинки (img-1, img-2 .. img-8)
+        2. Пройти первые 4 уровня https://flexboxfroggy.com/#ru
+        3. Выполнить задачу по ссылке https://docs.google.com/document/d/1QjmspqtLhjukJdLpx0IIrkUTLt4F-2CNB4LoukpaNjc/edit
+
+    margin/padding
+
+    margin: 10px; - 10px со всех сторон
+    margin: 10px 20px;     10px - сверху и снизу, 20px - справа и слева
+    margin: 10px auto 20px;       10px - сверху, auto - справа и слева, 20px - снизу
+    margin: 10px 20px 30px 0;      по часовой стрелке сверху->справа->снизу->слева
+
+    margin-top: 10px
+    margin-right: 20px
+    margin-bottom: 30px
+    margin-left: 40px
+
+    * - селектор для выбора всех элементов в html
+
+    ctrl + shift + R - обновить страницу с кэшем
+*/
