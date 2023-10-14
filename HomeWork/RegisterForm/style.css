@@ -46,6 +46,12 @@ font-weight: 800;
 	border: 1px solid #ffe44d;
 }
 
+p {
+	color: #7b8e98;
+	font-size: 12px;
+	margin-top: 24px;
+}
+
 .buttonPlace input {
 	font-weight: 700;
 	font-size: 16px;
@@ -56,12 +62,6 @@ font-weight: 800;
 
 input:nth-child(2) {
 	margin-top: 8px;
-}
-
-p {
-	color: #7b8e98;
-	font-size: 12px;
-	margin-top: 24px;
 }
 
 input[id='reg'] {
