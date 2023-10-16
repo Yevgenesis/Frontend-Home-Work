@@ -1,49 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<section>
-			<h1>Хотите вэб-сайт?</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-				cumque officiis commodi obcaecati hic odio corporis id labore
-				perspiciatis nam. Vel neque vero, minima inventore excepturi aperiam
-				suscipit accusamus odio.
-			</p>
-			<form action="">
-                <div class="form-control">
-				<input type="text" placeholder="Your name" />
-				<input type="email" placeholder="Your mail" />
-				</div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-				<input type="submit" />
-			</form>
-		</section>
-		<!-- <form action="">
-			<input type="text" />
-			<input type="number" name="" id="" />
-			<input type="email" />
-			<input type="password" />
-			<input type="date" />
-			<label>
-				<input type="checkbox" /> Тыц1
-			</label>
-			<label>
-				<input type="radio" /> Тыц2
-			</label>
-			<input type="submit" name="" id="" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <select name="" id="">
-                <option value="">Value 1</option> 
-                <option value="">Value 2</option> 
-                <option value="">Value 3</option> 
-            </select>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <h1>Хотите веб-сайт?</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure, repellat aliquid velit, repellendus
+            accusamus similique illo dignissimos neque perferendis architecto a alias nesciunt culpa ratione pariatur corrupti
+            et. Tempore.
+        </p>
+        <form>
+            <div class="form-control">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш email">
+            </div>
             
-		</form> -->
-	</body>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea> 
+            <input type="submit" value="Отправить">
+        </form>
+    </section>
+</body>
 </html>
+
+<!-- 
+    ДЗ. 
+    1. Сверстать форму регистрации по макету (html) 
+    2. flexboxfroggy - уровни 14-19
+    3. регистрация в figma. 
+
+    класс form-control используется для обертки элемнтов формы в контейнер
+
+    placeholder - атрибут формы, который является подсказкой для пользователя о том, что нужно ввести
+
+    section - семантический контейнер, используется для секции сайта
+
+    Тег <form> - обертка для формы.
+        Основные теги формы
+        1. input - поле ввода информации. Типы инпутов:
+            а) text - ввод текстовой информации
+            б) number - ввод числовой информации
+            в) email - ввод email (обязательна @)
+            г) submit - кнопка отправки формы. вызывает событие отправки формы
+            д) password - ввод пароля. кодировка в *
+            е) checkbox - выбор флажков
+            ж) radio - переключатель
+
+        <form action="">
+        <input type="text">
+        <input type="number">
+        <input type="email">
+        <input type="password">
+        <input type="date">
+        <label>
+            Мужской <input type="checkbox">
+        </label>
+        <label>
+            <input type="radio"> Test
+        </label>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <select>
+            <option value="">Value 1</option>
+            <option value="">Value 2</option>
+        </select>
+                
+        <input type="submit">
+    </form>
+ -->
