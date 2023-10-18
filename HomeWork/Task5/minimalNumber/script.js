@@ -8,3 +8,4 @@ if (x < y) {
 } else {
 	console.log('Numbers is equals')
 }
+
