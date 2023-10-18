@@ -7,3 +7,4 @@ if (number < 100) {
 } else {
 	console.log('Число равно 100')
 }
+
