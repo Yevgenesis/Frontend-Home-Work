@@ -93,3 +93,4 @@ function getMaxLengthElement(strArray) {
 
 const array = [ 'one', 'two', 'three']
 console.log(getMaxLengthElement(array));
+
