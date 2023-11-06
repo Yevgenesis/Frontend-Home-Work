@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.form {
+	width: 70%;
+	margin: 140px auto 60px;
+	background-color: #34495e;
+	padding: 80px 150px;
+	border-radius: 20px;
+}
+
+.product-form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	font-family: 'Inter', sans-serif;
+	padding: 10px 35px;
+	border: none;
+	outline: none;
+	font-size: 25px;
+	background-color: #d9d9d9;
+}
+
+input::placeholder {
+	color: black;
+}
+
+.product-price {
+	margin: 35px 0 120px;
+}
+
+input[type='submit'] {
+	background-color: #27ae60;
+	color: white;
+}
+
+.products {
+	width: 70%;
+	margin: auto;
+}
+
+.product-card {
+	background-color: #34495e;
+	padding: 30px 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.notification {
+	display: none;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	width: 300px;
+	padding: 20px;
+	background-color: #27ae60;
+	border-radius: 10px;
+}
+
+.delete-btn{
+	display: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #FC7171;
+	font-size: 25px;
+	border-radius: 50%;
+	border: 2px solid black;
+	top: -10px;
+	right: -10px;
+}
+
+.product-card:hover .delete-btn{
+	display: block;
+}
+
+.notification-text {
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+}

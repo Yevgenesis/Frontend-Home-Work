@@ -1,0 +1,15 @@
+.item{
+    background-color: aquamarine;
+    padding: 50px;
+    width: 350px;
+    margin: 10px;
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}

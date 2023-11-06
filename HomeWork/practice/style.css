@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h2 {
+	text-align: center;
+}
+div {
+	height: 100vh;
+	width: 70%;
+	background-color: aqua;
+	padding: 30px;
+	margin: auto;
+}
+
+div img {
+	width: 100%;
+}
+button {
+	height: 10%;
+	width: 20%;
+}

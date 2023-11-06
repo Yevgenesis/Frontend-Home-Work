@@ -1,0 +1,46 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* пэддинги и бордеры не добавляют доп. пространство, а забирают у блока */
+}
+
+.previews img{
+    width: calc(25% - 40px);
+    height: 200px;
+    margin: 10px;
+}
+.previews{
+display: flex;
+justify-content: center;
+}
+
+
+/* .img_1{
+    background-size: cover;
+}
+
+.img_2{
+    background-image: url("./images/aerosmith.jpeg");
+    background-size: cover;
+
+}
+
+.img_3{
+    background-image: url("./images/RolingStones.jpg");
+    background-size: cover;
+ 
+}
+
+.img_4{
+    background-image: url("./images/black_sabbath.jpeg");
+    background-size: cover;
+ 
+} */
+
+.mainImg {
+    background-image: url("./images/black_sabbath.jpeg");
+    background-size: cover;    margin: 10px 20px;
+    height: 600px;
+    width: calc(100% - 40px);
+    
+}

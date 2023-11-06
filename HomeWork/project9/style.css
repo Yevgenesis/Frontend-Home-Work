@@ -1,0 +1,36 @@
+section{
+    margin-bottom: 20px;
+}
+
+.square{
+    height: 200px;
+    width:  200px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+}
+
+.red{
+     background-color: red;
+}
+
+.pink{
+     background-color: pink;
+}
+
+.square-150{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
+.root2 p:nth-child(even){
+    color: blue;
+}
+
+.root2 p:nth-child(odd){
+    color:green;
+}
+
